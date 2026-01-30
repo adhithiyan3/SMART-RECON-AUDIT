@@ -1,0 +1,40 @@
+{
+  "name": "smart-reconciliation-backend",
+  "version": "1.0.0",
+  "description": "Production-grade reconciliation & audit backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "node",
+    "mern",
+    "reconciliation",
+    "bullmq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.13.1",
+    "cors": "^2.8.6",
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "fast-csv": "^5.0.5",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.15.0",
+    "xlsx": "^0.18.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

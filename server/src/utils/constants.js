@@ -1,0 +1,14 @@
+module.exports = {
+  JOB_STATUS: {
+    PROCESSING: 'PROCESSING',
+    COMPLETED: 'COMPLETED',
+    FAILED: 'FAILED'
+  },
+
+  MATCH_STATUS: {
+    MATCHED: 'MATCHED',
+    PARTIAL: 'PARTIAL',
+    UNMATCHED: 'UNMATCHED',
+    DUPLICATE: 'DUPLICATE'
+  }
+};

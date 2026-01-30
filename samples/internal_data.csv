@@ -1,0 +1,6 @@
+SystemID,Date,Amount,Reference
+TXN_001,2026-01-30,5000.00,Acme Corp Payment
+TXN_002,2026-01-30,1250.00,Fee - Consulting (Partial Match Case)
+TXN_003,2026-01-30,750.25,Supplies - Office
+TXN_004,2026-01-30,3000.00,IT Server Maint
+TXN_999,2026-01-30,999.00,Unmatched System Record
