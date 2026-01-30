@@ -1,8 +1,0 @@
-ExternalID,Date,Amount,Description
-TXN_001,2026-01-30,5000.00,Invoice Payment Acme
-TXN_002,2026-01-30,1250.50,Consulting Fee
-TXN_003,2026-01-30,750.25,Office Supplies
-TXN_004,2026-01-30,3000.00,Server Maintenance
-TXN_005,2026-01-30,100.00,Refund ABC
-TXN_001,2026-01-30,5000.00,Duplicate TXN_001 Case
-TXN_006,2026-01-30,450.00,Miscellaneous Error Case
