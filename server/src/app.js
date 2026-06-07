@@ -6,10 +6,13 @@ const logger = require('./config/logger');
 const errorHandler = require('./middlewares/error.middleware');
 
 const app = express();
-
-// Enable CORS for frontend
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://smart-recon-audit.vercel.app'],
+  origin: [
+    'http://localhost:5173/',
+    'https://smart-recon-audit.vercel.app/',
+    'https://smart-recon-audit-lqa8vbtmn-adhithiyans-projects-220e41f1.vercel.app/',
+    'https://smart-recon-audit-git-main-adhithiyans-projects-220e41f1.vercel.app/'
+  ],
   credentials: true
 }));
 
