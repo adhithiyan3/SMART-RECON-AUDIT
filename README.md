@@ -1,5 +1,7 @@
 # Smart Reconciliation & Audit System
 
+**Live Application:** [smart-recon-audit.vercel.app](https://smart-recon-audit.vercel.app)
+
 A robust, enterprise-grade system for matching financial/operational records between external and internal datasets with a strictly immutable audit trail.
 
 ## 1️⃣ System Architecture & High-Level Design
