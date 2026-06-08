@@ -17,21 +17,28 @@ app.use(cors({
     // Allow exact matches or any Vercel preview URL for this project
     if (
       allowedOrigins.includes(origin) ||
-      origin.endsWith('.vercel.app') && origin.includes('adhithiyans-projects')
+      (origin.endsWith('.vercel.app') && origin.includes('adhithiyans-projects'))
     ) {
       return callback(null, true);
     }
     return callback(new Error('Not allowed by CORS'));
   },
-  credentials: true
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+  optionsSuccessStatus: 200
 }));
+
+// Explicitly handle preflight requests
+app.options('*', cors());
 
 app.use(express.json());
 
 // HTTP request logging
 app.use(morgan('combined', {
   stream: {
-    write: (message) => logger.info(message.trim())
+    write: (message) => logger.info(message.trim()) 
+  
   }
 }));
 
